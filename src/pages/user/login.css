@@ -1,0 +1,55 @@
+.login-container{
+    height: 100vh;
+    width : 100vw;
+    border : 1px solid transparent;
+    background-image: linear-gradient(to bottom right,rgb(226, 32, 80) 10%,rgb(22, 10, 196)  );
+
+}
+.l-min-container{
+    height : 30%;
+    width : 30%;
+    margin : 25vh auto;
+    background-color: white;
+    border-radius : 6px;
+    padding : 20px;
+}
+form{
+    display : flex;
+    flex-direction : column;
+    padding : 10px;
+    align-items: center;
+    height : 90%;
+    width : 95%;
+
+}
+.l-min-container form input{
+    height : 35px;
+    width : 100%;
+    outline : none;
+    font-size: 16px;
+    border-radius: 5px;
+    border : 2px solid gray;
+    margin : 0 0 10px 0;
+    padding: 0 5px;
+}
+.l-sub-btn{
+    color : white;
+    background-color: blue ;
+    border : none;
+}
+.l-para{
+    margin : 0;
+    font-size: 12px;
+}
+.l-fp{
+    margin : 0 0 10px 0;
+    width : 100%;
+    text-align: end;
+    font-size: 12px;
+}
+.fp-i{
+    width : 70%;
+    padding : 0 10px;
+    height : 30px;
+    margin : 0 0 10px 0;
+}
